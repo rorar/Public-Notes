@@ -15,3 +15,6 @@ This above
 - Allows you to display the site with the login page and the administrative panel in a frame
 - Give opportunity to use all cookies including session cookies in iframes.
 If third parties do not know your admin area passwords, the only security problem is displaying your pages in a iframe, but they are protected by login + Wordpress by default allows you to display the site pages in iframe
+
+## Brizy Pro + WooCommerce throwing 404 Error on 2nd Categorie Page
+Just go to Settings > Permalinks and hit save. You might need to purge the cache as well.
