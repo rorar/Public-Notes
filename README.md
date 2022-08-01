@@ -1,4 +1,4 @@
-# Public-Notes for Problem fixing
+# Public-Notes for problem fixing - related to WordPress and Tools
 Public Notes for everyone and me to remember how Problems are solved
 
 ## webvizio.com and WordPress Problem fixing
