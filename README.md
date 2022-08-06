@@ -33,7 +33,7 @@ It will make you Cache be missed
 ## WordPress Maintenance, Monitoring and Checkup
 - https://de.wordpress.org/plugins/system-dashboard/
 - https://wordpress.org/plugins/wp-healthcheck/
-- https://de.wordpress.org/plugins/wp-server-stats/ - Adds a lot of Autoload
+- https://de.wordpress.org/plugins/wp-server-stats/ - Warning - Adds a lot of Autoload
 
 ## WordPress Pagespeed Optimization
 - https://wordpress.org/plugins/pre-party-browser-hints/ - Pre-Load/Connect Assets
