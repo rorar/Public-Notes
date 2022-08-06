@@ -47,4 +47,5 @@ https://github.com/nawawi/docket-cronwp
 
 ## GridPane.com helpers
 - https://github.com/managingwp/gp-tools
+- https://github.com/managingwp/cache-purge-helper
 
