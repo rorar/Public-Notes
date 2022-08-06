@@ -19,7 +19,25 @@ If third parties do not know your admin area passwords, the only security proble
 ## Brizy Pro + WooCommerce throwing 404 Error on 2nd Categorie Page
 Just go to Settings > Permalinks and hit save. You might need to purge the cache as well.
 
-## LiteSpeed - Do Not Cache PayPal Cookies
+## LiteSpeed 
+### Cookie Problems - 
+#### Do Not Cache PayPal Cookies
 It will make you Cache be missed
 - sc_f
 - c
+
+#### Do not cache the Cart Hash and the current language of WPML
+- woocommerce_cart_hash
+- wp-wpml_current_language
+
+## WordPress Maintenance, Monitoring and Checkup
+- https://de.wordpress.org/plugins/system-dashboard/
+- https://wordpress.org/plugins/wp-healthcheck/
+
+## WordPress Pagespeed Optimization
+- https://wordpress.org/plugins/pre-party-browser-hints/ - Pre-Load/Connect Assets
+- https://wordpress.org/plugins/docket-cache/ - An Object Cache Accelerator
+
+## GridPane.com helpers
+- https://github.com/managingwp/gp-tools
+
