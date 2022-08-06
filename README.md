@@ -42,7 +42,7 @@ It will make you Cache be missed
 - https://wordpress.org/plugins/index-wp-mysql-for-speed/ && https://github.com/OllieJones/index-wp-mysql-for-speed - Adds Indexes to your DB to improve speed
 - https://wordpress.org/plugins/index-wp-users-for-speed/ - Companion Plugin for Index WP MySQL for Speed
 
-## WP-Cron helper
+## WP-Cron helpers
 https://github.com/nawawi/docket-cronwp
 
 ## GridPane.com helpers
