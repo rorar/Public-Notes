@@ -37,6 +37,10 @@ It will make you Cache be missed
 ## WordPress Pagespeed Optimization
 - https://wordpress.org/plugins/pre-party-browser-hints/ - Pre-Load/Connect Assets
 - https://wordpress.org/plugins/docket-cache/ - An Object Cache Accelerator
+- https://wordpress.org/plugins/freesoul-deactivate-plugins/ - Deactivates Plugins based on sites instead of unloading CSS/JS
+
+## WP-Cron helper
+https://github.com/nawawi/docket-cronwp
 
 ## GridPane.com helpers
 - https://github.com/managingwp/gp-tools
