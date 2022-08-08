@@ -46,6 +46,7 @@ It will make you Cache be missed
 
 ## WP-Cron helpers
 https://github.com/nawawi/docket-cronwp
+https://wordpress.org/plugins/migrate-wp-cron-to-action-scheduler/
 
 ## GridPane.com helpers
 - https://github.com/managingwp/gp-tools
