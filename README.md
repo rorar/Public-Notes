@@ -31,11 +31,13 @@ It will make you Cache be missed
 - wp-wpml_current_language
 Try to add these lines to your .htaccess file
 
-`<IfModule LiteSpeed>
-RewriteEngine On </br>
+```
+<IfModule LiteSpeed>
+RewriteEngine On 
 RewriteRule .* - [E=Cache-Vary:woocommerce_current_currency]
 RewriteRule .* - [E=Cache-Vary:wp-wpml_current_language]
-</IfModule>`
+</IfModule>
+```
 
 #### Cookies Others
 https://github.com/WpSpeedDoctor/litespeed-cookie-based-caching
