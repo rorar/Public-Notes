@@ -48,6 +48,7 @@ RewriteRule .* - [E=Cache-Vary:wp-wpml_current_language]
 
 #### Cookies Others
 https://github.com/WpSpeedDoctor/litespeed-cookie-based-caching
+https://www.youtube.com/watch?v=cJeZv3tG-FU
 
 ### WP-Cron Problems
 Sometimes WP-Con Jobs won't trigger on (Open)LiteSpeed Servers. Here's how to fix this:
