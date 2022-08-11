@@ -58,7 +58,8 @@ https://www.youtube.com/watch?v=cJeZv3tG-FU
 Sometimes WP-Con Jobs won't trigger on (Open)LiteSpeed Servers. Here's how to fix this:
 "Do Not Cache Query Strings" from /wp-admin/admin.php?page=litespeed-cache#excludes this 
 `doing_wp_cron`
-and disable "Cache WP-Admin" /wp-admin/admin.php?page=litespeed-cache#object
+and disable "Cache WP-Admin" from /wp-admin/admin.php?page=litespeed-cache#object 
+Might fix Cloudflare issues with WP-Cron as well.
 
 ## WordPress Maintenance, Monitoring and Checkup
 - https://de.wordpress.org/plugins/system-dashboard/
