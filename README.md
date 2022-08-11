@@ -24,6 +24,10 @@ If third parties do not know your admin area passwords, the only security proble
 Just go to Settings > Permalinks and hit save. You might need to purge the cache as well.
 
 ## LiteSpeed 
+### LiteSpeed WordPress Optimizations
+Make Litespeed UCSS work, complete process and tools to use
+https://www.youtube.com/watch?v=kSC2sKb-K2k
+
 ### Cookie Problems - 
 #### Do Not Cache PayPal Cookies
 It will make you Cache be missed
@@ -71,8 +75,8 @@ and disable "Cache WP-Admin" /wp-admin/admin.php?page=litespeed-cache#object
 - https://wordpress.org/plugins/wc-speed-drain-repair/ - Unloads WooCommerce Components where they are not needed
 
 ## WP-Cron helpers
-https://github.com/nawawi/docket-cronwp
-https://wordpress.org/plugins/migrate-wp-cron-to-action-scheduler/
+- https://github.com/nawawi/docket-cronwp
+- https://wordpress.org/plugins/migrate-wp-cron-to-action-scheduler/
 
 ## GridPane.com helpers
 - https://github.com/managingwp/gp-tools
