@@ -29,7 +29,8 @@ It will make you Cache be missed
 #### Do not cache the Cart Hash and the current language of WPML
 - woocommerce_cart_hash
 - wp-wpml_current_language
-Try to add these lines to your .htaccess
+Try to add these lines to your .htaccess file
+
 `<IfModule LiteSpeed>
 RewriteEngine On
 RewriteRule .* - [E=Cache-Vary:woocommerce_current_currency]
