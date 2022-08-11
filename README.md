@@ -26,9 +26,8 @@ It will make you Cache be missed
 - sc_f
 - c
 
-#### Do not cache the Cart Hash and the current language of WPML
+#### Do not cache the Cart Hash Cookie, vary the cookie of the current language of WPML and the current currency
 - woocommerce_cart_hash
-- wp-wpml_current_language
 Try to add these lines to your .htaccess file
 
 ```
