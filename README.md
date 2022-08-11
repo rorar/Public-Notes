@@ -32,7 +32,7 @@ It will make you Cache be missed
 Try to add these lines to your .htaccess file
 
 `<IfModule LiteSpeed>
-RewriteEngine On
+RewriteEngine On </br>
 RewriteRule .* - [E=Cache-Vary:woocommerce_current_currency]
 RewriteRule .* - [E=Cache-Vary:wp-wpml_current_language]
 </IfModule>`
