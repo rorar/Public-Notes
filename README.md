@@ -61,7 +61,7 @@ and disable "Cache WP-Admin" /wp-admin/admin.php?page=litespeed-cache#object
 - https://de.wordpress.org/plugins/wp-server-stats/ - Warning - Adds a lot of Autoload
 
 ## WordPress Pagespeed Optimization
-- https://wordpress.org/plugins/pre-party-browser-hints/ - Pre-Load/Connect Assets
+- https://wordpress.org/plugins/pre-party-browser-hints/ - Pre-Load/Connect Assets. Attention: May Break your headers in LiteSpeed, check on testsite first!
 - https://wordpress.org/plugins/docket-cache/ - An Object Cache Accelerator
 - https://wordpress.org/plugins/freesoul-deactivate-plugins/ - Deactivates Plugins based on sites instead of unloading CSS/JS |  Free/Paid
 - https://wordpress.org/plugins/plugin-organizer/ - Deactivates Plugins based on sites instead of unloading CSS/JS Free
