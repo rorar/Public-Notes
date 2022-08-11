@@ -6,10 +6,14 @@ Public Notes for everyone and me to remember how Problems are solved
 2. Install the plugin https://github.com/PHPWatch/WordPress-SameSite
 (Click on the green code button, download as Zip, upload as Plugin)
 3. add these lines to the functions.php
-  - remove_action( 'login_init', 'send_frame_options_header' );
-  - remove_action( 'admin_init', 'send_frame_options_header' );
+```
+remove_action( 'login_init', 'send_frame_options_header' );
+remove_action( 'admin_init', 'send_frame_options_header' );
+``` 
 4. add this to wp-config.php
+```
 define('WP_SAMESITE_COOKIE', 'None' );
+```
 
 This above 
 - Allows you to display the site with the login page and the administrative panel in a frame
@@ -23,11 +27,15 @@ Just go to Settings > Permalinks and hit save. You might need to purge the cache
 ### Cookie Problems - 
 #### Do Not Cache PayPal Cookies
 It will make you Cache be missed
-- sc_f
-- c
+```
+sc_f
+c
+```
 
 #### Do not cache the Cart Hash Cookie, vary the cookie of the current language of WPML and the current currency
-- woocommerce_cart_hash
+```
+woocommerce_cart_hash
+```
 Try to add these lines to your .htaccess file
 
 ```
