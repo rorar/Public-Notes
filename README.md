@@ -68,9 +68,9 @@ Might fix Cloudflare issues with WP-Cron as well.
 
 ## WordPress Pagespeed Optimization
 - https://wordpress.org/plugins/pre-party-browser-hints/ - Pre-Load/Connect Assets. Attention: May Break your headers in LiteSpeed, check on testsite first!
-- https://wordpress.org/plugins/docket-cache/ - An Object Cache Accelerator
+- https://wordpress.org/plugins/docket-cache/ - An Object Cache Accelerator as Plugin and alternative to memcache and Redis
 - https://wordpress.org/plugins/freesoul-deactivate-plugins/ - Deactivates Plugins based on sites instead of unloading CSS/JS |  Free/Paid
-- https://wordpress.org/plugins/plugin-organizer/ - Deactivates Plugins based on sites instead of unloading CSS/JS Free
+- https://wordpress.org/plugins/plugin-organizer/ - Deactivates Plugins based on sites instead of unloading CSS/JS | Free
 - https://wordpress.org/plugins/index-wp-mysql-for-speed/ && https://github.com/OllieJones/index-wp-mysql-for-speed - Adds Indexes to your DB to improve speed
 - https://wordpress.org/plugins/index-wp-users-for-speed/ - Companion Plugin for Index WP MySQL for Speed
 - https://wordpress.org/plugins/wc-speed-drain-repair/ - Unloads WooCommerce Components where they are not needed
