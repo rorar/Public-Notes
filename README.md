@@ -49,6 +49,16 @@ RewriteRule .* - [E=Cache-Vary:woocommerce_current_currency]
 RewriteRule .* - [E=Cache-Vary:wp-wpml_current_language]
 </IfModule>
 ```
+#### Fix for aborting processes on LiteSpeed powered servers - for example backup with a backup plugin
+```
+# BEGIN litespeed noabort
+<IfModule rewrite_module>
+        RewriteEngine On
+        RewriteRule .* - [E=noabort:1]
+</IfModule>
+# END litespeed noabort
+```
+
 
 #### Cookies Others
 https://github.com/WpSpeedDoctor/litespeed-cookie-based-caching
