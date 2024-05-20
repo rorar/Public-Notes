@@ -24,6 +24,24 @@ If third parties do not know your admin area passwords, the only security proble
 Just go to Settings > Permalinks and hit save. You might need to purge the cache as well.
 
 ## LiteSpeed 
+### Can't quick edit / The Link you followed has expired: "Hidden" Nonce error related to WordPress
+If this Error message appears while quick edit more than one item, delete your cache, disable and re-enable the LiteSpeed Plugin.
+```log
+The link you followed has expired.
+Please try again.
+
+This message was triggered by WordPress core.
+
+Call stack
+
+wp_die()
+wp-includes/functions.php:3664
+wp_nonce_ays()
+wp-includes/pluggable.php:1293
+check_admin_referer()
+wp-admin/edit.php:77
+```
+
 ### LiteSpeed WordPress Optimizations
 Make Litespeed UCSS work, complete process and tools to use
 https://www.youtube.com/watch?v=kSC2sKb-K2k
