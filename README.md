@@ -25,7 +25,7 @@ Just go to Settings > Permalinks and hit save. You might need to purge the cache
 
 ## LiteSpeed 
 ### Can't quick edit / The Link you followed has expired: "Hidden" Nonce error related to WordPress
-If this Error message appears while quick edit more than one item, delete your cache, disable and re-enable the LiteSpeed Plugin.
+If this Error message appears while quick edit more than one item, delete your cache, if installed: go through your Scalability Pro settings and disable all settings, disable and re-enable the LiteSpeed Plugin, logout and login.
 ```log
 The link you followed has expired.
 Please try again.
