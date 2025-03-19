@@ -20,7 +20,39 @@ This above
 - Give opportunity to use all cookies including session cookies in iframes.
 If third parties do not know your admin area passwords, the only security problem is displaying your pages in a iframe, but they are protected by login + Wordpress by default allows you to display the site pages in iframe
 
-## Brizy Pro + WooCommerce throwing 404 Error on 2nd Categorie Page
+## Brizy Pro
+### Fix Brizy Pro Template issues
+1. As always: Create a full site Backup.
+2. Clear all caches (Page Cache, Object Cache,...) to be sure this isn't a caching issue.
+3. To be sure, deactivate caching temporarily
+
+Follow the guides below:
+#### Brizy Pro + Woocommerce: Cart / Checkout / Account and Login Page missing or disappeared
+1. Go to Pages, iterate through the WooCommerce pages by hitting `Edit with Brizy`
+2. Edit the WooCommerce Element: Change the width to 99%
+3. Hit `Save page` / `Update page`
+4. Edit the WooCommerce Element: Change the width back to 100%
+5. Hit `Save page` / `Update page` again
+6. Enable Caching again
+-> The page should work again.
+_If not, check the guide below_
+
+#### Brizy Pro + Woocommerce: Cart / Checkout / Account and Login Page can't be edited with Brizy and the page editor is loading indefinitely
+1. Go to Pages, iterate through the WooCommerce pages by hitting `Edit` (Note: DO NOT hit "Edit with Brizy" this time)
+2. On the right side: Next to "Templates" hit `Brizy Template` and at the dropdown choose `Standard Template`
+3. On the top right: Hit `Save`
+4. Hit `Edit with Brizy`  
+5. Edit the WooCommerce Element: Change the width to 99%
+6. Hit `Save page` / `Update page`
+7. Edit the WooCommerce Element: Change the width back to 100%
+8. Hit `Save page` / `Update page` again
+9. Go back to the previous edit page (most bottom left, `More` > `Go back to Dashboard`)
+10. On the right side: Next to "Templates" hit `Standard Template` and at the dropdown choose `Brizy Template` 
+11. On the top right: Hit `Save`
+12. Enable Caching again
+-> The page should work again.
+
+### Brizy Pro + WooCommerce throwing 404 Error on 2nd Categorie Page
 Just go to Settings > Permalinks and hit save. You might need to purge the cache as well.
 
 ## LiteSpeed 
